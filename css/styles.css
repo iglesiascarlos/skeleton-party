@@ -18,11 +18,18 @@ body{
     background-image: url(/img/smartphone/body-background.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: blur(2px);
     padding: 30px 30px 30px 30px;
+    color: aliceblue;
+    text-align: center;
 }
 
 h1,h2,h3{
     color: #DC7B0A;
+}
+
+h2,h3{
+    font-size: 30px;
 }
 
 img{
@@ -43,4 +50,53 @@ img{
     align-items: center;
     justify-content: center;
     padding: 0 40px 0px 40px;
+    margin: 100px 40px 100px 40px;
+}
+
+figcaption{
+    margin: 30px;
+}
+
+.formulario,form,figure,.fiesta, .reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews,.formulario{
+    margin-top: 100px;
+}
+
+.circulos{
+    border-radius: 100%;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+}
+
+input{
+    width: 230px;
+    margin: 5px 0 20px 0;
+    height: 40px;
+}
+
+textarea{
+    margin: 20px 0 30px 0;
+}
+
+.botones-form{
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin: 60px 0 60px 0;
+}
+
+.redes{
+    margin: 0 20px 0 20px;
 }
