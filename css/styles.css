@@ -1,0 +1,46 @@
+/* ***************** */
+/* ***** FONTS ***** */
+/* ***************** */
+
+@font-face {
+    font-family: 'creepster';
+    src:    url(/fonts/Creepster-Regular.woff2) format('woff2'),
+            url(/fonts/Creepster-Regular.woff)  format('woff'),
+            url(/fonts/Creepster-Regular.ttf)   format('truetype');
+}
+
+body{
+    font-family: 'creepster';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/img/smartphone/body-background.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 30px 30px 30px;
+}
+
+h1,h2,h3{
+    color: #DC7B0A;
+}
+
+img{
+    border-radius: 24px;
+}
+
+/* *************************** */
+/* ***** MEJOR ESQUELETO ***** */
+/* *************************** */
+
+.best-skeleton{
+    background-image: url(/img/smartphone/foto-mejor-esqueleto@2x.webp);
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px 0px 40px;
+}
